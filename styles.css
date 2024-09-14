@@ -112,15 +112,26 @@ section {
 }
 
 
-#resources a.soundcloud:visited {
-    color: #0288d1;  /* Same color as unvisited link */
+#resources a.soundcloud:link, #resources a.soundcloud:visited {
+    color: #0288d1; /* Soundcloud default color */
     text-decoration: none;
 }
 
-#resources a.etsy:visited {
-    color: #ff4081;  /* Same color as unvisited link */
+#resources a.soundcloud:hover {
+    color: #ff4081; /* Hover color */
     text-decoration: none;
 }
+
+#resources a.etsy:link, #resources a.etsy:visited {
+    color: #0288d1; /* Etsy default color */
+    text-decoration: none;
+}
+
+#resources a.etsy:hover {
+    color: #ff4081; /* Hover color */
+    text-decoration: none;
+}
+
 
 
 
