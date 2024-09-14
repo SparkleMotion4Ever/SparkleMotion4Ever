@@ -8,11 +8,11 @@ body {
 }
 
 /* Header Styles */
+/* Header Styling */
 header {
-    text-align: center;          /* Center the text and button inside the header */
+    text-align: center;          /* Center the text inside the header */
     padding: 20px;               /* Space around the header */
     background-color: #ff4081;   /* Ensure this matches the main header color */
-    padding-bottom: 20px;        /* Add space between header and button */
 }
 
 header h1 {
@@ -21,9 +21,16 @@ header h1 {
     color: white;
 }
 
+/* Button Box Styling */
+.button-box {
+    display: flex;
+    justify-content: center;     /* Center the button within the container */
+    align-items: center;         /* Align items to center vertically */
+    margin-top: 20px;            /* Space between header and button box */
+}
+
 /* General Mojo Button Styling */
-.mojo-button,
-#animate-btn {
+.mojo-button {
     display: inline-block;
     padding: 10px 20px;            /* Consistent padding */
     background-color: #ff5722;      /* Same background color */
@@ -35,14 +42,13 @@ header h1 {
     text-align: center;             /* Center the text */
     text-decoration: none;          /* No underline for links */
     transition: background-color 0.3s ease;  /* Smooth hover transition */
-    margin-top: 10px;               /* Add space between header and button */
 }
 
 /* Hover Effect for All Mojo Buttons */
-.mojo-button:hover,
-#animate-btn:hover {
+.mojo-button:hover {
     background-color: #e64a19;  /* Slightly darker background color on hover */
 }
+
 
 /* Life Stages Section */
 #life-stages {
