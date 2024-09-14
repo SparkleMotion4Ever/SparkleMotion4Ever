@@ -112,15 +112,16 @@ section {
 }
 
 
-#resources a.soundcloud:hover {
-    color: #0288d1;  /* Color for Soundcloud hover */
+#resources a.soundcloud:visited {
+    color: #0288d1;  /* Same color as unvisited link */
     text-decoration: none;
 }
 
-#resources a.etsy:hover {
-    color: #ff4081;  /* Color for Etsy hover */
+#resources a.etsy:visited {
+    color: #ff4081;  /* Same color as unvisited link */
     text-decoration: none;
 }
+
 
 
 #technologies h2, #resources h2, #class-reason h2 {
