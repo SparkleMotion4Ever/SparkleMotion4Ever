@@ -8,7 +8,6 @@ body {
 }
 
 /* Header Styles */
-/* Header Styling */
 header {
     text-align: center;          /* Center the text inside the header */
     padding: 20px;               /* Space around the header */
@@ -26,6 +25,7 @@ header h1 {
     display: flex;
     justify-content: center;     /* Center the button within the container */
     align-items: center;         /* Align items to center vertically */
+    width: 100%;                 /* Ensure the button box takes the full width */
     margin-top: 20px;            /* Space between header and button box */
 }
 
