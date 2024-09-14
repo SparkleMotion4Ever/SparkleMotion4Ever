@@ -7,21 +7,17 @@ body {
 }
 
 header {
-    background-color: #ff4081;
-    text-align: center;
-    padding: 20px;
-    color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;          /* Center the text and button inside the header */
+    padding: 20px;               /* Space around the header */
+    background-color: #ff4081;   /* Ensure this matches the main header color */
 }
 
 header h1 {
-    font-size: 2.5rem;
     margin: 0;
+    font-size: 2.5rem;           /* Ensure a good size for the heading */
+    color: white;
 }
-/* Example Mojo Button Styling */
-/* Styling for the Mojo button */
-/* Styling for the Mojo button */
-/* Styling for the Mojo button */
+
 /* General Mojo Button Styling */
 .mojo-button,
 #animate-btn {
@@ -36,6 +32,7 @@ header h1 {
     text-align: center;             /* Center the text */
     text-decoration: none;          /* No underline for links */
     transition: background-color 0.3s ease;  /* Smooth hover transition */
+    margin-top: 10px;               /* Add space between header and button */
 }
 
 /* Hover Effect for All Mojo Buttons */
@@ -43,6 +40,7 @@ header h1 {
 #animate-btn:hover {
     background-color: #e64a19;  /* Slightly darker background color on hover */
 }
+
 
 
 header {
