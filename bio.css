@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #212121;
@@ -6,10 +7,12 @@ body {
     padding: 0;
 }
 
+/* Header Styles */
 header {
     text-align: center;          /* Center the text and button inside the header */
     padding: 20px;               /* Space around the header */
     background-color: #ff4081;   /* Ensure this matches the main header color */
+    padding-bottom: 20px;        /* Add space between header and button */
 }
 
 header h1 {
@@ -41,15 +44,7 @@ header h1 {
     background-color: #e64a19;  /* Slightly darker background color on hover */
 }
 
-
-
-header {
-    text-align: center;          /* Center header content */
-    padding-bottom: 20px;        /* Add space between header and button */
-}
-
-
-
+/* Life Stages Section */
 #life-stages {
     display: flex;
     flex-wrap: wrap;
