@@ -135,14 +135,16 @@ ul li {
     font-size: 1.1rem;
 }
 
-.soundcloud:hover, .etsy:hover {
-    color: #0288d1;  
+.soundcloud:hover {
+    color: #0288d1;  /* Color for Soundcloud hover */
     text-decoration: none;
 }
 
-.soundcloud:hover, .etsy:hover {
-    color: #ff4081;  
+.etsy:hover {
+    color: #ff4081;  /* Color for Etsy hover */
+    text-decoration: none;
 }
+
 
 @media (max-width: 768px) {
     #about-me {
