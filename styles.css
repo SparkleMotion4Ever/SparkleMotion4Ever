@@ -135,7 +135,7 @@ ul li {
     font-size: 1.1rem;
 }
 
-.soundcloud, .etsy:hover {
+.soundcloud:hover, .etsy:hover {
     color: #0288d1;  
     text-decoration: none;
 }
