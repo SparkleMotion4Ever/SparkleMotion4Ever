@@ -21,12 +21,13 @@ header h1 {
 }
 
 /* Button Box Styling */
+/* Button Box Styling */
 .button-box {
     display: flex;
-    justify-content: center;     /* Center the button within the container */
-    align-items: center;         /* Align items to center vertically */
-    width: 100%;                 /* Ensure the button box takes the full width */
-    margin-top: 20px;            /* Space between header and button box */
+    justify-content: center;     /* Center the button horizontally */
+    align-items: center;         /* Center the button vertically (if needed) */
+    margin-top: 20px;            /* Add space between header and button box */
+    width: auto;                 /* Allow the box to wrap only around its content */
 }
 
 /* General Mojo Button Styling */
