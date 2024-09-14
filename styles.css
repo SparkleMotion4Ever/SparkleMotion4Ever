@@ -24,8 +24,9 @@ header h1 {
 }
 
 h1, #animate-btn, .profile-pic {
-    transition: color 1s ease, border-color 1s ease; /* Smooth color transitions */
+    transition: color 1s ease, border-color 1s ease; /* Smooth transition for colors */
 }
+
 
 #about-me {
     display: flex;

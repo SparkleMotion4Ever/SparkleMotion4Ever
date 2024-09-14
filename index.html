@@ -68,26 +68,26 @@
                 $('h1').animate({ fontSize: '4rem' }, 1000)
                     .animate({ fontSize: '2.5rem' }, 1000);
     
-                // Color change for h1 in sync with font animation
-                $('h1').css('color', 'pink');
+                // Use setTimeout to control the color changes of h1
+                $('h1').css('color', 'pink'); // Start with pink
     
                 setTimeout(function() {
-                    $('h1').css('color', 'blue');
+                    $('h1').css('color', 'blue'); // Change to blue after 1 second
                 }, 1000);
     
                 setTimeout(function() {
-                    $('h1').css('color', 'green');
+                    $('h1').css('color', 'green'); // Change to green after 2 seconds
                 }, 2000);
     
                 setTimeout(function() {
-                    $('h1').css('color', 'orange');
+                    $('h1').css('color', 'orange'); // Change to orange after 3 seconds
                 }, 3000);
     
                 setTimeout(function() {
-                    $('h1').css('color', 'white');  // Reset to the original color
+                    $('h1').css('color', 'white');  // Reset to white after 4 seconds
                 }, 4000);
     
-                // Set the color transition chain for the profile-pic border
+                // Profile picture border color changes
                 $('.profile-pic').css('border-color', 'pink');
     
                 setTimeout(function() {
@@ -103,10 +103,10 @@
                 }, 3000);
     
                 setTimeout(function() {
-                    $('.profile-pic').css('border-color', 'transparent');
+                    $('.profile-pic').css('border-color', 'transparent'); // Reset after 4 seconds
                 }, 4000);
     
-                // Set the color transition chain for the animate-btn button text color
+                // Button text color changes
                 $('#animate-btn').css('color', 'pink');
     
                 setTimeout(function() {
@@ -122,11 +122,12 @@
                 }, 3000);
     
                 setTimeout(function() {
-                    $('#animate-btn').css('color', 'white');  // Reset to the original color
+                    $('#animate-btn').css('color', 'white');  // Reset after 4 seconds
                 }, 4000);
             });
         });
     </script>
+    
     
     
     
