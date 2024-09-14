@@ -135,12 +135,12 @@ ul li {
     font-size: 1.1rem;
 }
 
-.soundcloud, .mdn-link {
+.soundcloud, .etsy:hover {
     color: #0288d1;  
     text-decoration: none;
 }
 
-.soundcloud:hover, .mdn-link:hover {
+.soundcloud:hover, .etsy:hover {
     color: #ff4081;  
 }
 
