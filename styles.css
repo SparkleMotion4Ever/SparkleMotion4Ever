@@ -117,6 +117,15 @@ section {
     border: 2px solid #e65100;
 }
 
+.soundcloud, .etsy {
+    color: #0288d1;
+    text-decoration: none;
+}
+
+.soundcloud:hover, .etsy:hover {
+    color: #ff4081;  /* Change color on hover */
+    text-decoration: none;
+}
 
 
 
