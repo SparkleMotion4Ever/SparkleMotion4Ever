@@ -112,10 +112,16 @@ section {
 }
 
 
-#resources {
-    background-color: #42a5f5; 
-    border: 2px solid #1976d2;
+#resources a.soundcloud:hover {
+    color: #0288d1;  /* Color for Soundcloud hover */
+    text-decoration: none;
 }
+
+#resources a.etsy:hover {
+    color: #ff4081;  /* Color for Etsy hover */
+    text-decoration: none;
+}
+
 
 #technologies h2, #resources h2, #class-reason h2 {
     color: #ff4081; 
