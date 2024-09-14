@@ -64,21 +64,32 @@
     <script>
         $(document).ready(function() {
             $('#animate-btn').click(function() {
+                // Animate the h1 font size
                 $('h1').animate({ fontSize: '4rem' }, 1000)
                     .animate({ fontSize: '2.5rem' }, 1000); 
-
+    
+                // Set the color transition chain using CSS transition for smooth effect
+                $('.profile-pic').css('border-color', 'pink');
+    
                 setTimeout(function() {
-                    $('h1').css('color', 'orange'); 
+                    $('.profile-pic').css('border-color', 'blue');
                 }, 1000);
-
+    
                 setTimeout(function() {
-                    $('h1').css('color', 'white');  
+                    $('.profile-pic').css('border-color', 'green');
                 }, 2000);
-
-                $('.profile-pic').css('border', '5px solid #f00'); 
+    
+                setTimeout(function() {
+                    $('.profile-pic').css('border-color', 'orange');
+                }, 3000);
+    
+                setTimeout(function() {
+                    $('.profile-pic').css('border-color', 'transparent');
+                }, 4000);
             });
         });
     </script>
+    
 
 </body>
 </html>
