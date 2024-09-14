@@ -4,14 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Web Development Class by Ruben Duran">
-    <title>Web Development Class</title>
+    <title>Life Stages</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
 
     <header>
-        <h1>Špå®kłé Mötîøñ</h1>
+        <h1>Špå®kłé Mötîøñ - Life Stages</h1>
     </header>
-    </body></html>
+
+    <!-- Section for Life Stages -->
+    <section id="life-stages">
+        <div class="box stage-box">
+            <h2>Childhood</h2>
+            <p>Discover the joy and innocence of childhood.</p>
+        </div>
+
+        <div class="box stage-box">
+            <h2>Adolescence</h2>
+            <p>Experience the growth and challenges of adolescence.</p>
+        </div>
+
+        <div class="box stage-box">
+            <h2>Adulthood</h2>
+            <p>Embrace the responsibilities and freedom of adulthood.</p>
+        </div>
+
+        <div class="box stage-box">
+            <h2>Senior Years</h2>
+            <p>Reflect on the wisdom and experiences of a lifetime.</p>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        // Optional: Add some animations to the boxes when clicked
+        $(document).ready(function() {
+            $('.stage-box').click(function() {
+                $(this).animate({ fontSize: '1.5rem' }, 1000)
+                       .animate({ fontSize: '1rem' }, 1000);
+            });
+        });
+    </script>
+
+</body>
+</html>
