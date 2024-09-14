@@ -66,9 +66,28 @@
             $('#animate-btn').click(function() {
                 // Animate the h1 font size
                 $('h1').animate({ fontSize: '4rem' }, 1000)
-                    .animate({ fontSize: '2.5rem' }, 1000); 
+                    .animate({ fontSize: '2.5rem' }, 1000);
     
-                // Set the color transition chain using CSS transition for smooth effect
+                // Color change for h1 in sync with font animation
+                $('h1').css('color', 'pink');
+    
+                setTimeout(function() {
+                    $('h1').css('color', 'blue');
+                }, 1000);
+    
+                setTimeout(function() {
+                    $('h1').css('color', 'green');
+                }, 2000);
+    
+                setTimeout(function() {
+                    $('h1').css('color', 'orange');
+                }, 3000);
+    
+                setTimeout(function() {
+                    $('h1').css('color', 'white');  // Reset to the original color
+                }, 4000);
+    
+                // Set the color transition chain for the profile-pic border
                 $('.profile-pic').css('border-color', 'pink');
     
                 setTimeout(function() {
@@ -86,9 +105,31 @@
                 setTimeout(function() {
                     $('.profile-pic').css('border-color', 'transparent');
                 }, 4000);
+    
+                // Set the color transition chain for the animate-btn button text color
+                $('#animate-btn').css('color', 'pink');
+    
+                setTimeout(function() {
+                    $('#animate-btn').css('color', 'blue');
+                }, 1000);
+    
+                setTimeout(function() {
+                    $('#animate-btn').css('color', 'green');
+                }, 2000);
+    
+                setTimeout(function() {
+                    $('#animate-btn').css('color', 'orange');
+                }, 3000);
+    
+                setTimeout(function() {
+                    $('#animate-btn').css('color', 'white');  // Reset to the original color
+                }, 4000);
             });
         });
     </script>
+    
+    
+    
     
 
 </body>
