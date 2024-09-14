@@ -135,12 +135,12 @@ ul li {
     font-size: 1.1rem;
 }
 
-.w3schools-link, .mdn-link {
+.soundcloud, .mdn-link {
     color: #0288d1;  
     text-decoration: none;
 }
 
-.w3schools-link:hover, .mdn-link:hover {
+.soundcloud:hover, .mdn-link:hover {
     color: #ff4081;  
 }
 
