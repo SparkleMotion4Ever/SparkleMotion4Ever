@@ -44,25 +44,22 @@ header h1 {
 }
 
 .profile-pic-box {
+    width: 180px;
+    height: 180px; /* Ensures the box is a square */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0288d1;  /* Blue frame color */
-    border-radius: 50%;  /* Make the frame circular */
-    padding: 5px;  /* Space between the image and the frame */
-    box-sizing: border-box;  /* Ensure padding adds to the size */
-    width: 200px;  /* Adjust the size based on the image dimensions */
-    height: 200px;  /* Same as width to maintain a square frame */
+    background-color: #0288d1;  /* Blue background */
+    border-radius: 50%;  /* Make it a circle */
+    padding: 10px;  /* Add padding for space between the image and border */
 }
 
 .profile-pic {
-    border-radius: 50%;  /* Make the image circular */
-    width: 100%;  /* Ensure the image fills the container */
-    height: 100%;
-    object-fit: cover;  /* Ensure the image scales properly inside the frame */
-    border: none;  /* No additional border */
+    border-radius: 50%;  /* Makes the profile picture circular */
+    width: 100%;
+    height: auto;
+    border: none;  /* Remove any existing border */
 }
-
 
 
 .text-box {
@@ -122,12 +119,12 @@ section {
     border: 2px solid #e65100;
 }
 
-.soundcloud, .etsy {
+.xanadu, .etsy {
     color: #0288d1;
     text-decoration: none;
 }
 
-.soundcloud:hover, .etsy:hover {
+.xanadu:hover, .etsy:hover {
     color: #ff4081;  /* Change color on hover */
     text-decoration: none;
 }
