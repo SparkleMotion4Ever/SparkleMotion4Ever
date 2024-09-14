@@ -45,20 +45,22 @@ header h1 {
 
 .profile-pic-box {
     width: 180px;
+    height: 180px; /* Ensures the box is a square */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 20px;
-    background-color: #1976d2;  
-    border-radius: 50%;
+    background-color: #0288d1;  /* Blue background */
+    border-radius: 50%;  /* Make it a circle */
+    padding: 10px;  /* Add padding for space between the image and border */
 }
 
 .profile-pic {
-    border-radius: 50%;
-    width: 150px;
+    border-radius: 50%;  /* Makes the profile picture circular */
+    width: 100%;
     height: auto;
-    border: 5px solid #d32f2f;  
+    border: none;  /* Remove any existing border */
 }
+
 
 .text-box {
     flex: 1;
