@@ -55,11 +55,13 @@ header h1 {
 }
 
 .profile-pic {
-    border-radius: 50%;  /* Makes the profile picture circular */
+    transition: border-color 1s ease-in-out; /* Smooth transition */
+    border-radius: 50%; /* Circular shape */
     width: 100%;
     height: auto;
-    border: none;  /* Remove any existing border */
+    border: 5px solid transparent; /* Start with no border */
 }
+
 
 
 .text-box {
