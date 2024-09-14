@@ -21,30 +21,32 @@ header h1 {
 /* Example Mojo Button Styling */
 /* Styling for the Mojo button */
 /* Styling for the Mojo button */
+/* Styling for the Mojo button */
 .mojo-button {
     display: inline-block;
-    background-color: #ff5722;  /* Orange background */
-    color: white;               /* Text color */
-    padding: 10px;              /* Button padding */
-    font-size: 1rem;            /* Adjust font size */
-    border-radius: 5px;         /* Rounded corners */
-    text-decoration: none;      /* No underline */
-    border: 2px solid #0288d1;  /* Blue border */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Optional shadow for depth */
-    transition: background-color 0.3s ease;
-    width: 100px;               /* Set width for square look */
-    height: 50px;               /* Set height to make it square-ish */
-    text-align: center;         /* Center text horizontally */
-    line-height: 30px;          /* Center text vertically */
-    margin: 10px auto 0;        /* Add margin to center button below header */
+    background-color: #ff5722;   /* Orange background */
+    color: white;                /* Text color */
+    font-size: 1rem;             /* Font size */
+    border-radius: 5px;          /* Rounded corners */
+    text-decoration: none;       /* Remove underline */
+    border: 2px solid #0288d1;   /* Blue border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+    width: 100px;                /* Set width */
+    height: 50px;                /* Set height */
+    display: flex;               /* Use flexbox to center the text */
+    justify-content: center;     /* Horizontally center text */
+    align-items: center;         /* Vertically center text */
+    margin: 10px auto;           /* Center button below header */
+    transition: background-color 0.3s ease;  /* Smooth transition on hover */
 }
 
 .mojo-button:hover {
-    background-color: #e64a19;  /* Slightly darker orange on hover */
+    background-color: #e64a19;   /* Hover effect */
 }
 
 header {
-    text-align: center;         /* Center align the header and button */
+    text-align: center;          /* Center header content */
+    padding-bottom: 20px;        /* Add space between header and button */
 }
 
 
