@@ -119,12 +119,12 @@ section {
     border: 2px solid #e65100;
 }
 
-.xanadu, .etsy {
+.xanadu, .etsy, .techno {
     color: #0288d1;
     text-decoration: none;
 }
 
-.xanadu:hover, .etsy:hover {
+.xanadu:hover, .etsy:hover, .techno:hover {
     color: #ff4081;  /* Change color on hover */
     text-decoration: none;
 }
