@@ -112,32 +112,28 @@ section {
 }
 
 
-#resources a.soundcloud, #resources a.etsy {
-    color: #0288d1;  /* Set the default color */
-    text-decoration: none;  /* Remove underline */
-}
-
-#resources a.soundcloud:visited, #resources a.etsy:visited {
-    color: #0288d1;  /* Ensure visited links stay the same color */
-    text-decoration: none;  /* No underline */
-}
-
-#resources a.soundcloud:hover, #resources a.etsy:hover {
-    color: #ff4081;  /* Hover color */
-    text-decoration: none;
-}
-
-
 #resources {
-    background-color: #0288d1;  /* Box background color */
-    padding: 20px;
+    background-color: #0288d1;  /* Background for the box */
+    padding: 20px;  /* Padding inside the box */
     border: 2px solid #00796b;  /* Box border */
-    border-radius: 10px;  /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Box shadow for effect */
+    border-radius: 10px;  /* Round corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
     color: white;  /* Text color inside the box */
-    max-width: 800px;  /* Optional: controls the width of the box */
-    margin: 20px auto;  /* Centers the box */
+    max-width: 800px;  /* Optional: Box width */
+    margin: 20px auto;  /* Center the box */
 }
+
+#resources ul {
+    list-style-type: disc;  /* Show bullet points */
+    margin-left: 20px;  /* Space for the bullet points */
+}
+
+#resources ul li {
+    margin-bottom: 10px;  /* Add space between the list items */
+    font-size: 1.1rem;  /* Slightly larger text */
+    color: white;  /* Keep the text white inside the box */
+}
+
 
 
 
