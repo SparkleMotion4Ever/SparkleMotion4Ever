@@ -19,22 +19,24 @@ header h1 {
     margin: 0;
 }
 /* Example Mojo Button Styling */
+/* Styling for the Mojo button */
 .mojo-button {
-    background-color: #ff5722;  /* Primary background color */
+    display: inline-block;
+    background-color: #ff5722;  /* Orange background */
     color: white;               /* Text color */
-    padding: 10px 30px;         /* Button padding */
+    padding: 10px 20px;         /* Button padding */
     font-size: 1.2rem;          /* Font size */
-    text-transform: uppercase;  /* Text transformation */
     border-radius: 5px;         /* Rounded corners */
-    border: 2px solid white;    /* Optional border */
-    cursor: pointer;            /* Cursor on hover */
-    text-decoration: none;      /* Remove underline */
-    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    text-decoration: none;      /* No underline */
+    border: 2px solid #0288d1;  /* Blue border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Optional shadow for depth */
+    transition: background-color 0.3s ease;
 }
 
 .mojo-button:hover {
-    background-color: #e64a19;  /* Hover effect */
+    background-color: #e64a19;  /* Slightly darker orange on hover */
 }
+
 
 
 #life-stages {
